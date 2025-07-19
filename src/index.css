@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.todo-list {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.todo-list h2 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.todo-list input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  width: 65%;
+  font-size: 16px;
+}
+
+.todo-list input[type="text"]:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 3px #0d6efd88;
+}
+
+.Add-Buttons {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.Add-Buttons:hover {
+  background-color: #0b5ed7;
+}
+
+ol {
+  list-style: decimal inside;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.text {
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.text:hover {
+  background-color: #e9ecef;
+}
+
+input[type="text"].edit-input {
+  flex-grow: 1;
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #adb5bd;
+  border-radius: 6px;
+  transition: border-color 0.2s;
+}
+
+input[type="text"].edit-input:focus {
+  border-color: #198754;
+  outline: none;
+}
+
+.Delete-Button {
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color:red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+}
+
+.Delete-Button:hover {
+  background-color: #890202;
+}
+
+.Arrow-Button {
+  padding: 4px 6px;
+  font-size: 14px;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.Arrow-Button:hover {
+  background-color: #0b5ed7;
+}
+
+
