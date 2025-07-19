@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function ToDoList() {
-  const [tasks, setTasks] = useState(["Eat breakfast", "Take a shower", "Go to school"]);
+  const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
   const [editingIndex, setEditingIndex] = useState(null);
   const [editedTask, setEditedTask] = useState("");
